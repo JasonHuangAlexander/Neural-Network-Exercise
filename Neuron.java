@@ -1,5 +1,3 @@
-
-//====================JASON ZONE DO NOT TOUCH==========================
 import java.util.ArrayList;
 //The Neuron class holds the weights and biases of each neuron in each layer of each neural network.
 //These weights and biases are used to predict if you will get rescinded or not.
@@ -60,4 +58,3 @@ public class Neuron {
     return this.z;
   }
 }
-// ====================END OF JASON ZONE==========================
