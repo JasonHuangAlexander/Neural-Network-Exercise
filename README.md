@@ -1,0 +1,1 @@
+This was a project done with me and a friend a few years ago. I was interested in learning about neural networks, so I tried my best to make one that would predict if a student would get rescinded from their college (this was a joke between me and my friend). My friend coded the user menu, while I focused on the neural network.
