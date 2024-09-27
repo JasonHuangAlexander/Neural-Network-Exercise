@@ -1,15 +1,6 @@
-/** Heading  **********************************************/
-/*	Your names: Jason Alexander and Anna Maria K
-		Class block: D (for dumbuter science)				Date Started: April 25
-		Lab Number: 1111/final project
-		Title: Will I Get Rescinded? (yes)
-		Purpose: This product will use a neural network to predict whether or not a student will get rescinded from the college they plan to attend. This will help current seniors like us by alleviating stress about their senior year grades, helping them gauge whether or not their grades are too low. It will help boost mental health as a result. And get an A for fourth quarter :) ~vibacious~ :)
-*/
+Date Started: April 25
 
-    //    _____        _____
-    //  _| (___) /\/\ (___) |_   
-    // |_|    |  \  /  |    |_|
-    //   |_--_|   \/   |_--_|
+Purpose: This product will use a neural network to predict whether or not a student will get rescinded from the college they plan to attend. This will help current seniors like us by alleviating stress about their senior year grades, helping them gauge whether or not their grades are too low. It will help boost mental health as a result. 
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -18,7 +9,6 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 class Main {
-  // ====================JASON ZONE DO NOT TOUCH==========================
   public static void main(String[] args) {
     ArrayList<Integer> y = load_y(); // labels
     ArrayList<double[]> X = load_X(); // features
@@ -223,7 +213,6 @@ class Main {
       return y;
     }
   }
-  // ====================END OF JASON ZONE==========================
 //The following function runs the user interface, asking the user to enter their grade in a class, the number of credits the class is worth, and whether or not they wish to enter another class. This happens for three intervals---the pre-senior year grades (freshman through junior year), the senior grades in the first semester (mid-senior year grades), and the senior grades at the end of the year (end-of-senior year grades)
   public static double[] menu() {
     Scanner scanner = new Scanner(System.in);
